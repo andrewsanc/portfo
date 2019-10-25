@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import './sidebar.css'
+import Main from './Main';
 import Sidebar from './Sidebar';
+import './app.css'
 
 class App extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col-sm-4">
+        <div className="col-sm-4 no-padding">
           <Sidebar />
         </div>
-        <div className="col-sm-8">
-          <h3>World</h3>
+        <div className="col-sm-8 no-padding">
+          <Main />
         </div>
     </div>
     )

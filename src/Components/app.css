@@ -1,4 +1,4 @@
-* {
-  font-family:'Lato', sans-serif;
-  font-size:16px
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
 }
