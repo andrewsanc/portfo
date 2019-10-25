@@ -1,5 +1,6 @@
 import React from 'react';
-import About from './About'
+import About from '../About/About'
+import Skills from '../Skills/Skills'
 import './main.css';
 
 const Main = () => {
@@ -7,7 +8,7 @@ const Main = () => {
     <div className="main">
       <About />
       <div className="background-alt">
-
+        <Skills />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 .sidebar {
   position: relative;
   height: 100vh;
-  background: url(../static/lead-bg.jpg);
+  background: url(../../static/lead-bg.jpg);
   background-size: cover;
   overflow: hidden;
   padding: 0;

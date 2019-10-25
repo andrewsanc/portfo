@@ -1,6 +1,6 @@
 import React from 'react';
 import './sidebar.css';
-import me from '../static/me.jpg'
+import me from '../../static/me.jpg'
 
 const Sidebar = () => {
   return (
