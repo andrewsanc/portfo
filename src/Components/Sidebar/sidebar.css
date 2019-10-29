@@ -1,16 +1,29 @@
-.sidebar {
-  position: relative;
-  height: 100vh;
-  background: url(../../static/lead-bg.jpg);
-  background-size: cover;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+@media (max-width: 780px) {
+  .sidebar {
+    position: relative;
+    height: 100vh;
+    background: url(../../static/lead-bg.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
 }
+
+@media (min-width: 781px) {
+  .sidebar {
+    position: fixed;
+    width: 33.5%;
+    height: 100vh;
+    background: url(../../static/lead-bg.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+}
+
 
 .sidebar-content {
   position: relative;
-  z-index: 10;
   text-align: center;
   z-index: 10;
 }
@@ -20,6 +33,7 @@
   height: 100%;
   width: 100%;
   padding: 25px;
+  margin: auto;
 }
 
 .sidebar h1 {
@@ -27,6 +41,7 @@
   font-weight: 600;
   font-size: 3em;
   text-transform: uppercase;
+  margin: auto;
 }
 
 .sidebar h2 {
@@ -34,6 +49,7 @@
   font-weight: 400;
   font-size: 2em;
   padding-bottom: 20px;
+  margin: auto;
 }
 
 .sidebar-overlay {

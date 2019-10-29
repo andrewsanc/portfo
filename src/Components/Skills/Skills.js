@@ -2,8 +2,10 @@ import React from 'react';
 import './skills.css'
 import resumeInfo from '../../resumeInfo';
 
-const technologies = resumeInfo.technology.languages
-console.log(technologies)
+const languages = resumeInfo.technology.languages;
+const frameworks = resumeInfo.technology.frameworks;
+const datas = resumeInfo.technology.datas;
+const tools = resumeInfo.technology.tools;
 
 const Skills = () => {
   return (
@@ -11,11 +13,41 @@ const Skills = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-4">
-            <h2 className="heading">Technologies</h2>
+            <h2 className="heading">Languages</h2>
           </div>
           <div className="col-sm-8">
             <ul className="technology">
-              {renderTechnologies(technologies)}
+              {renderItems(languages)}
+            </ul>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-4">
+            <h2 className="heading">Frameworks</h2>
+          </div>
+          <div className="col-sm-8">
+            <ul className="technology">
+              {renderItems(frameworks)}
+            </ul>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-4">
+            <h2 className="heading">Data</h2>
+          </div>
+          <div className="col-sm-8">
+            <ul className="technology">
+              {renderItems(datas)}
+            </ul>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-4">
+            <h2 className="heading">Tools</h2>
+          </div>
+          <div className="col-sm-8">
+            <ul className="technology">
+              {renderItems(tools)}
             </ul>
           </div>
         </div>
@@ -24,8 +56,8 @@ const Skills = () => {
   );
 }
 
-const renderTechnologies = (technologies) => {
-  return technologies.map(tech => {
+const renderItems = (items) => {
+  return items.map(tech => {
     return (
       <li className="item">
         <img src={tech.imageUrl} alt={tech.alt} />
