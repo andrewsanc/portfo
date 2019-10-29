@@ -1,9 +1,3 @@
-.main {
-  overflow-y: scroll;
-  height: auto;
-  -ms-overflow-style: none;
-}
-
 .background-alt{
   background:#f2f2f5
 }

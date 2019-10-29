@@ -6,7 +6,7 @@ import './app.css'
 class App extends Component {
   render() {
     return (
-      <div className="row">
+      <div className="row row-no-margin">
         <div className="col-12 col-md-4 no-padding">
           <Sidebar />
         </div>

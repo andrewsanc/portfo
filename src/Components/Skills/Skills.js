@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <div className="container">
-        <div className="row">
+        <div className="row" style={{marginRight:'0px'}}>
           <div className="col-sm-4">
             <h2 className="heading">Languages</h2>
           </div>
