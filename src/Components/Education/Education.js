@@ -3,7 +3,6 @@ import './education.css';
 import resumeInfo from '../../resumeInfo';
 
 const education = resumeInfo.education
-console.log(education)
 
 const Education = () => {
   return (
@@ -15,9 +14,9 @@ const Education = () => {
 }
 
 const renderEducation = (education) => {
-  return education.map(school => {
+  return education.map((school, i) => {
     return (
-      <div className="education-block">
+      <div className="education-block" key={i}>
         <h3>{school.schoolName}</h3>
         <span>{school.dateStart} - {school.dateEnd}</span>
         <h4>{school.schoolLocation}</h4>

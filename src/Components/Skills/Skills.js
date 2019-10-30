@@ -57,9 +57,9 @@ const Skills = () => {
 }
 
 const renderItems = (items) => {
-  return items.map(tech => {
+  return items.map((tech, i) => {
     return (
-      <li className="item">
+      <li className="item" key={i}>
         <img src={tech.imageUrl} alt={tech.alt} />
         <span>{tech.title}</span>
       </li>
