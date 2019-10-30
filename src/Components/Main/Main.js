@@ -3,6 +3,7 @@ import About from '../About/About'
 import Skills from '../Skills/Skills'
 import './main.css';
 import Education from '../Education/Education';
+import Experience from '../Experience/Experience';
 
 const Main = () => {
   return (
@@ -12,6 +13,9 @@ const Main = () => {
         <Skills />
       </div>
       <Education />
+      <div className="background-alt">
+        <Experience />
+      </div>
     </div>
   );
 }
