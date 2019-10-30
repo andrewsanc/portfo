@@ -89,7 +89,11 @@ const resumeInfo = {
       {title: 'Google Cloud', imageUrl: 'https://seeklogo.com/images/G/google-cloud-logo-6B950E8ADB-seeklogo.com.png', imageAlt: 'GCP'},
       {title: 'Heroku', imageUrl: 'https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg', imageAlt: 'Heroku'},
     ]
-  }
+  },
+  education: [
+    {schoolName: 'California State University, Monterey Bay', schoolLocation: 'Seaside, CA', dateStart: 'August 2014', dateEnd: 'May 2018', degree: 'Bachelor of Science', major: 'Computer Science', emphasis: 'Software Engineering'},
+    {schoolName: 'Arizone State University', schoolLocation: 'Tempe, AZ', dateStart: 'January 2020', dateEnd: 'May 2021', degree: 'Master of Computer Science', major: 'Computer Science', emphasis: ''}
+  ]
 }
 
 export default resumeInfo;
