@@ -91,8 +91,8 @@ const resumeInfo = {
     ]
   },
   education: [
+    {schoolName: 'Arizone State University', schoolLocation: 'Tempe, AZ', dateStart: 'January 2020', dateEnd: 'May 2021', degree: 'Master of Computer Science', major: 'Computer Science', emphasis: ''},
     {schoolName: 'California State University, Monterey Bay', schoolLocation: 'Seaside, CA', dateStart: 'August 2014', dateEnd: 'May 2018', degree: 'Bachelor of Science', major: 'Computer Science', emphasis: 'Software Engineering'},
-    {schoolName: 'Arizone State University', schoolLocation: 'Tempe, AZ', dateStart: 'January 2020', dateEnd: 'May 2021', degree: 'Master of Computer Science', major: 'Computer Science', emphasis: ''}
   ]
 }
 
