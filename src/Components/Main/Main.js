@@ -21,6 +21,7 @@ const Main = () => {
       <div className="background-alt">
         <Projects />
       </div>
+      <Contact />
     </div>
   );
 };
