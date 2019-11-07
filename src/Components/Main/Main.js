@@ -1,9 +1,11 @@
-import React from 'react';
-import About from '../About/About'
-import Skills from '../Skills/Skills'
-import './main.css';
-import Education from '../Education/Education';
-import Experience from '../Experience/Experience';
+import React from "react";
+import About from "../About/About";
+import Skills from "../Skills/Skills";
+import "./main.css";
+import Education from "../Education/Education";
+import Experience from "../Experience/Experience";
+import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
 
 const Main = () => {
   return (
@@ -13,11 +15,14 @@ const Main = () => {
         <Skills />
       </div>
       <Education />
-      <div className="background-alt">
+      {/* <div className="background-alt">
         <Experience />
+      </div> */}
+      <div className="background-alt">
+        <Projects />
       </div>
     </div>
   );
-}
- 
+};
+
 export default Main;
