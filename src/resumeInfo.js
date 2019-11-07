@@ -105,10 +105,10 @@ const resumeInfo = {
         imageAlt: "CSS3 logo"
       },
       {
-        title: "Bash",
+        title: "R",
         imageUrl:
-          "https://smallimg.pngkey.com/png/small/140-1409984_python-logo-bash-shell-logo-shell-script-logo.png",
-        imageAlt: "Bash logo"
+          "https://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png",
+        imageAlt: "R logo"
       }
     ],
     frameworks: [
@@ -148,7 +148,7 @@ const resumeInfo = {
       {
         title: "Flask",
         imageUrl:
-          "https://www.pngfind.com/pngs/m/62-626422_python-logo-clipart-drawing-flask-hd-png-download.png",
+          "https://res.cloudinary.com/practicaldev/image/fetch/s--fU-RKnuZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://1selfsolutions.com/wp-content/uploads/2018/07/flask-preview-400.jpg",
         imageAlt: "Flask logo"
       },
       {
@@ -208,6 +208,11 @@ const resumeInfo = {
         imageUrl:
           "https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg",
         imageAlt: "Heroku"
+      },
+      {
+        title: "Node.JS",
+        imageUrl: "https://icon-library.net/images/js-icon/js-icon-13.jpg",
+        imageAlt: "NodeJS Logo"
       }
     ]
   },
