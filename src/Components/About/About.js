@@ -1,5 +1,5 @@
-import React from 'react';
-import './about.css'
+import React from "react";
+import "./about.css";
 
 const About = () => {
   return (
@@ -10,19 +10,28 @@ const About = () => {
             <h2 className="heading">About Me</h2>
           </div>
           <div className="col-sm-8">
-            <p>Welcome! <span role="img">👋</span>
-              <br/>
-              <br/>
-              I'm Andrew Sanchez, a passionate individual about Computer Science and Software Development. 
-              I grew up Hollister, CA and majored in Computer Science at California State University, Monterey Bay (CSUMB). 
-              I enjoyed my time at CSUMB as it gave me foundational CS skills to dive into new technologies. 
-              Today you can find me learning about new technologies, playing video games, and hanging out with my dog Luci.
+            <p>
+              <strong>Welcome! </strong>
+              <span role="img">👋</span>
+              <br />
+              <br />
+              Hi! I'm Andrew Sanchez. A Full-Stack Software Engineer who has
+              experience with various Front End and Backend Technologies. My
+              path that has led me to become a software engineer began when I
+              was attending school at Caliornia State University, Monterey Bay.
+              Throughout my time at CSUMB I've had a chance to explore
+              everything in computer science; From different programming
+              languages to various frameworks/libraries. Since graduating I've
+              had the chance to build and deploy various applications using the
+              latest technologies. As engineer, I'm always looking to learn new
+              skill sets that allow me become a more versatile and knowledge
+              software engineer.
             </p>
           </div>
         </div>
       </div>
     </div>
   );
-}
- 
+};
+
 export default About;

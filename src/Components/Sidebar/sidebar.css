@@ -4,6 +4,7 @@
     height: 100vh;
     background: url(../../static/lead-bg.jpg);
     background-size: cover;
+    padding: 50px 10px 20px 25px;
   }
 }
 
@@ -15,6 +16,7 @@
     background: url(../../static/lead-bg.jpg);
     background-size: cover;
     text-align: center;
+    padding: 50px 10px 20px 25px;
   }
 }
 
@@ -29,7 +31,6 @@
 .sidebar-content img {
   border-radius: 50%;
   width: 100%;
-  padding: 25px 10px 25px 25px;
   margin: auto;
 }
 
@@ -45,19 +46,19 @@
   color: #a0cfee;
   font-weight: 400;
   font-size: 2em;
-  padding-bottom: 20px;
+  padding: 5px 0px 30px;
   margin: auto;
 }
 
 .sidebar-overlay {
-  position:absolute;
-  height:100%;
-  width:100%;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  background: rgba(33,125,187,0.8);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(33, 125, 187, 0.8);
   z-index: 1;
 }
 
@@ -68,27 +69,26 @@
   border-radius: 30px;
 }
 
-.btn-rounded-white:hover{
-  color:#3498db;
-  background:#fff;
-  text-decoration:none;
+.btn-rounded-white:hover {
+  color: #3498db;
+  background: #fff;
+  text-decoration: none;
 }
 
 .sidebar ul {
-  margin:5px 0 0 0;
-  padding:0
+  padding: 10px 0px 0px;
 }
 
 .social li {
-  display:inline-block;
-  font-size:2.5em;
-  list-style:none
+  display: inline-block;
+  font-size: 2.5em;
+  list-style: none
 }
 
 .social a {
-  display:block;
+  display: block;
   color: #fff;
-  padding:10px
+  padding: 10px
 }
 
 .social a:hover {
