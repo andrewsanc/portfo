@@ -71,9 +71,9 @@ const resumeInfo = {
   technology: {
     languages: [
       {
-        title: "Es6",
+        title: "ES6",
         imageUrl: "http://joelcox.io/scripts/logos/es6-logo.png",
-        imageAlt: "es6 logo"
+        imageAlt: "ES6 logo"
       },
       {
         title: "JavaScript",
@@ -94,14 +94,12 @@ const resumeInfo = {
       },
       {
         title: "HTML5",
-        imageUrl:
-          "https://cdn.iconscout.com/icon/free/png-256/html5-10-569380.png",
+        imageUrl: "http://joelcox.io/scripts/logos/html5-logo.png",
         imageAlt: "HTML5 logo"
       },
       {
         title: "CSS3",
-        imageUrl:
-          "https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png",
+        imageUrl: "http://joelcox.io/scripts/logos/css3-logo.png",
         imageAlt: "CSS3 logo"
       },
       {
@@ -124,9 +122,10 @@ const resumeInfo = {
         imageAlt: "Redux logo"
       },
       {
-        title: "Angular",
-        imageUrl: "http://joelcox.io/scripts/logos/angular-logo.png",
-        imageAlt: "Angular logo"
+        title: "jQuery",
+        imageUrl:
+          "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png",
+        imageAlt: "jQuery logo"
       },
       {
         title: "VueJS",
