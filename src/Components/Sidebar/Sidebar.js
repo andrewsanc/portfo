@@ -33,7 +33,6 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className="sidebar-overlay"></div>
     </div>
   );
 };
