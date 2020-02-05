@@ -16,15 +16,16 @@ const About = () => {
               <br />
               <br />
               Hi! I'm Andrew Sanchez. A Full-Stack Software Engineer who has
-              experience with various Front End and Backend Technologies. My
+              experience with various Front End and Backend Technologies. The
               path that has led me to become a software engineer began when I
-              was attending school at Caliornia State University, Monterey Bay.
+              was attending school at California State University, Monterey Bay.
               Throughout my time at CSUMB I've had a chance to explore
-              everything in computer science; From different programming
-              languages to various frameworks/libraries. Since graduating I've
-              had the chance to build and deploy various applications using the
-              latest technologies. As engineer, I'm always looking to learn new
-              skill sets that allow me become a more versatile and knowledge
+              everything in computer science; From exploring multiple
+              programming languages to working with diverse
+              frameworks/libraries. Since graduating I have had the chance to
+              build and deploy various applications using the latest
+              technologies. As an engineer, I'm always looking to learn new
+              skill sets that allow me become a more versatile and knowledgeable
               software engineer.
             </p>
           </div>
