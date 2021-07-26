@@ -71,19 +71,14 @@ const resumeInfo = {
   technology: {
     languages: [
       {
-        title: "ES6",
-        imageUrl: "http://joelcox.io/scripts/logos/es6-logo.png",
-        imageAlt: "ES6 logo",
-      },
-      {
         title: "JavaScript",
-        imageUrl: "http://joelcox.io/scripts/logos/javascript-logo.png",
+        imageUrl: "images/javascript.png",
         imageAlt: "JavaScript logo",
       },
       {
         title: "TypeScript",
         imageUrl:
-          "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
         imageAlt: "TypeScript logo",
       },
       {
@@ -113,7 +108,7 @@ const resumeInfo = {
       {
         title: "React",
         imageUrl:
-          "https://arcweb.co/wp-content/uploads/2016/10/react-logo-1000-transparent.png",
+          "https://e7.pngegg.com/pngimages/18/497/png-clipart-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue.png",
         imageAlt: "React logo",
       },
       {
@@ -123,8 +118,7 @@ const resumeInfo = {
       },
       {
         title: "jQuery",
-        imageUrl:
-          "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png",
+        imageUrl: "images/jquery.png",
         imageAlt: "jQuery logo",
       },
       {
@@ -137,12 +131,6 @@ const resumeInfo = {
         imageUrl:
           "https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61",
         imageAlt: "Express logo",
-      },
-      {
-        title: "Django",
-        imageUrl:
-          "https://sentry.io/_assets/logos/django-f6f336cde20615169bbf4441c748188dd9903908bc6af952df3bd8f899c55a41.svg",
-        imageAlt: "Django logo",
       },
       {
         title: "Flask",
@@ -159,27 +147,13 @@ const resumeInfo = {
     ],
     datas: [
       {
-        title: "MySQL",
-        imageUrl:
-          "https://seeklogo.com/images/M/mysql-logo-69B39F7D18-seeklogo.com.png",
+        title: "SQL",
+        imageUrl: "images/sql.png",
         imageAlt: "MySQL logo",
       },
       {
-        title: "PostgreSQL",
-        imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-        imageAlt: "PostgreSQL logo",
-      },
-      {
-        title: "SQLite",
-        imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2000px-Sqlite-square-icon.svg.png",
-        imageAlt: "SQLite logo",
-      },
-      {
         title: "MongoDB",
-        imageUrl:
-          "https://jaystack.com/wp-content/uploads/2015/12/mongodb-leaf-e1497443272821.png",
+        imageUrl: "images/mongodb.png",
         imageAlt: "MongoDB",
       },
     ],
@@ -191,9 +165,8 @@ const resumeInfo = {
         imageAlt: "Git logo",
       },
       {
-        title: "AWS",
-        imageUrl:
-          "https://m03s6dh33i0jtc3uzfml36au-wpengine.netdna-ssl.com/wp-content/uploads/AWS-logo.jpg",
+        title: "Amazon Web Services",
+        imageUrl: "images/aws.png",
         imageAlt: "AWS logo",
       },
       {
@@ -210,7 +183,7 @@ const resumeInfo = {
       },
       {
         title: "Node.JS",
-        imageUrl: "https://icon-library.net/images/js-icon/js-icon-13.jpg",
+        imageUrl: "images/nodejs.png",
         imageAlt: "NodeJS Logo",
       },
     ],
