@@ -9,16 +9,16 @@ import Projects from "../Projects/Projects";
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className='main'>
       <About />
-      <div className="background-alt">
+      <div className='background-alt'>
         <Skills />
       </div>
       <Education />
       {/* <div className="background-alt">
         <Experience />
       </div> */}
-      <div className="background-alt">
+      <div className='background-alt'>
         <Projects />
       </div>
       <Contact />
