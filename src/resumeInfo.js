@@ -8,7 +8,7 @@ const resumeInfo = {
       repository: "https://github.com/TB831/FirebaseProjectManger",
       projectImage:
         "https://firebase.google.com/images/brand-guidelines/logo-vertical.png",
-      imageAlt: "firebase logo"
+      imageAlt: "firebase logo",
     },
     {
       title: "React Image Search",
@@ -18,7 +18,7 @@ const resumeInfo = {
       repository: "https://github.com/TB831/reactCar/",
       projectImage:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_of_Unsplash.svg/2000px-Logo_of_Unsplash.svg.png",
-      imageAlt: "camera"
+      imageAlt: "camera",
     },
     {
       title: "Vue ToDo App",
@@ -27,7 +27,7 @@ const resumeInfo = {
       deployment: null,
       repository: "https://github.com/TB831/vueToDoApp",
       projectImage: "https://andrewsanc.github.io/images/todo.png",
-      imageAlt: "Checklist"
+      imageAlt: "Checklist",
     },
     {
       title: "Concentration Cards",
@@ -36,7 +36,7 @@ const resumeInfo = {
       deployment: "http://concentrationcards.herokuapp.com/",
       repository: "https://github.com/TB831/concentration/",
       projectImage: "https://andrewsanc.github.io/images/reactLogo.png",
-      imageAlt: "React Logo"
+      imageAlt: "React Logo",
     },
     {
       title: "SmartBrain",
@@ -45,7 +45,7 @@ const resumeInfo = {
       deployment: "https://smarterbrain.herokuapp.com/",
       repository: "https://github.com/TB831/smart-brain/",
       projectImage: "https://andrewsanc.github.io/images/brain.png",
-      imageAlt: "Brain logo"
+      imageAlt: "Brain logo",
     },
     {
       title: "Insurance Chatbot",
@@ -55,7 +55,7 @@ const resumeInfo = {
       repository:
         "https://github.com/CSUMB-CST499-S18/cig-customer_service-chatbot-1/tree/ansanchez",
       projectImage: "https://andrewsanc.github.io/images/chatbot.jpg",
-      imageAlt: "Chatbot"
+      imageAlt: "Chatbot",
     },
     {
       title: "Video Game Sales Prediction",
@@ -65,166 +65,157 @@ const resumeInfo = {
       repository:
         "https://github.com/CSUMB-CST499-S18/cig-customer_service-chatbot-1/tree/ansanchez",
       projectImage: "https://andrewsanc.github.io/images/ml.jpg",
-      imageAlt: "Machine Learning"
-    }
+      imageAlt: "Machine Learning",
+    },
   ],
   technology: {
     languages: [
       {
         title: "ES6",
         imageUrl: "http://joelcox.io/scripts/logos/es6-logo.png",
-        imageAlt: "ES6 logo"
+        imageAlt: "ES6 logo",
       },
       {
         title: "JavaScript",
         imageUrl: "http://joelcox.io/scripts/logos/javascript-logo.png",
-        imageAlt: "JavaScript logo"
+        imageAlt: "JavaScript logo",
       },
       {
         title: "TypeScript",
         imageUrl:
           "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png",
-        imageAlt: "TypeScript logo"
+        imageAlt: "TypeScript logo",
       },
       {
         title: "Python",
         imageUrl:
           "http://a1449.phobos.apple.com/us/r30/Purple4/v4/e8/20/fd/e820fded-8a78-06ac-79d0-f1d140346976/mzl.huoealqj.png",
-        imageAlt: "Python logo"
+        imageAlt: "Python logo",
       },
       {
         title: "HTML5",
         imageUrl: "http://joelcox.io/scripts/logos/html5-logo.png",
-        imageAlt: "HTML5 logo"
+        imageAlt: "HTML5 logo",
       },
       {
         title: "CSS3",
         imageUrl: "http://joelcox.io/scripts/logos/css3-logo.png",
-        imageAlt: "CSS3 logo"
+        imageAlt: "CSS3 logo",
       },
       {
         title: "R",
         imageUrl:
           "https://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png",
-        imageAlt: "R logo"
-      }
+        imageAlt: "R logo",
+      },
     ],
     frameworks: [
       {
         title: "React",
         imageUrl:
           "https://arcweb.co/wp-content/uploads/2016/10/react-logo-1000-transparent.png",
-        imageAlt: "React logo"
+        imageAlt: "React logo",
       },
       {
         title: "Redux",
         imageUrl: "https://avatars0.githubusercontent.com/u/13142323?s=400&v=4",
-        imageAlt: "Redux logo"
+        imageAlt: "Redux logo",
       },
       {
         title: "jQuery",
         imageUrl:
           "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png",
-        imageAlt: "jQuery logo"
+        imageAlt: "jQuery logo",
       },
       {
         title: "VueJS",
         imageUrl: "https://vuejs.org/images/logo.png",
-        imageAlt: "Vuejs logo"
+        imageAlt: "Vuejs logo",
       },
       {
         title: "Express",
         imageUrl:
           "https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61",
-        imageAlt: "Express logo"
+        imageAlt: "Express logo",
       },
       {
         title: "Django",
         imageUrl:
           "https://sentry.io/_assets/logos/django-f6f336cde20615169bbf4441c748188dd9903908bc6af952df3bd8f899c55a41.svg",
-        imageAlt: "Django logo"
+        imageAlt: "Django logo",
       },
       {
         title: "Flask",
         imageUrl:
           "https://res.cloudinary.com/practicaldev/image/fetch/s--fU-RKnuZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://1selfsolutions.com/wp-content/uploads/2018/07/flask-preview-400.jpg",
-        imageAlt: "Flask logo"
+        imageAlt: "Flask logo",
       },
       {
         title: "JestJS",
         imageUrl:
           "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png",
-        imageAlt: "Jest Logo"
-      }
+        imageAlt: "Jest Logo",
+      },
     ],
     datas: [
       {
         title: "MySQL",
         imageUrl:
           "https://seeklogo.com/images/M/mysql-logo-69B39F7D18-seeklogo.com.png",
-        imageAlt: "MySQL logo"
+        imageAlt: "MySQL logo",
       },
       {
         title: "PostgreSQL",
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
-        imageAlt: "PostgreSQL logo"
+        imageAlt: "PostgreSQL logo",
       },
       {
         title: "SQLite",
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2000px-Sqlite-square-icon.svg.png",
-        imageAlt: "SQLite logo"
+        imageAlt: "SQLite logo",
       },
       {
         title: "MongoDB",
         imageUrl:
           "https://jaystack.com/wp-content/uploads/2015/12/mongodb-leaf-e1497443272821.png",
-        imageAlt: "MongoDB"
-      }
+        imageAlt: "MongoDB",
+      },
     ],
     tools: [
       {
         title: "Git",
         imageUrl:
           "https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png",
-        imageAlt: "Git logo"
+        imageAlt: "Git logo",
       },
       {
         title: "AWS",
         imageUrl:
           "https://m03s6dh33i0jtc3uzfml36au-wpengine.netdna-ssl.com/wp-content/uploads/AWS-logo.jpg",
-        imageAlt: "AWS logo"
+        imageAlt: "AWS logo",
       },
       {
         title: "Google Cloud",
         imageUrl:
           "https://seeklogo.com/images/G/google-cloud-logo-6B950E8ADB-seeklogo.com.png",
-        imageAlt: "GCP"
+        imageAlt: "GCP",
       },
       {
         title: "Heroku",
         imageUrl:
           "https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg",
-        imageAlt: "Heroku"
+        imageAlt: "Heroku",
       },
       {
         title: "Node.JS",
         imageUrl: "https://icon-library.net/images/js-icon/js-icon-13.jpg",
-        imageAlt: "NodeJS Logo"
-      }
-    ]
+        imageAlt: "NodeJS Logo",
+      },
+    ],
   },
   education: [
-    {
-      schoolName: "Arizone State University",
-      schoolLocation: "Tempe, AZ",
-      dateStart: "January 2020",
-      dateEnd: "May 2021",
-      degree: "Master of Computer Science",
-      major: "Computer Science",
-      emphasis: ""
-    },
     {
       schoolName: "California State University, Monterey Bay",
       schoolLocation: "Seaside, CA",
@@ -232,9 +223,9 @@ const resumeInfo = {
       dateEnd: "May 2018",
       degree: "Bachelor of Science",
       major: "Computer Science",
-      emphasis: "Software Engineering"
-    }
-  ]
+      emphasis: "Software Engineering",
+    },
+  ],
 };
 
 export default resumeInfo;
