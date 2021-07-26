@@ -83,18 +83,17 @@ const resumeInfo = {
       },
       {
         title: "Python",
-        imageUrl:
-          "http://a1449.phobos.apple.com/us/r30/Purple4/v4/e8/20/fd/e820fded-8a78-06ac-79d0-f1d140346976/mzl.huoealqj.png",
+        imageUrl: "images/python.png",
         imageAlt: "Python logo",
       },
       {
         title: "HTML5",
-        imageUrl: "http://joelcox.io/scripts/logos/html5-logo.png",
+        imageUrl: "images/html5.png",
         imageAlt: "HTML5 logo",
       },
       {
         title: "CSS3",
-        imageUrl: "http://joelcox.io/scripts/logos/css3-logo.png",
+        imageUrl: "images/css.png",
         imageAlt: "CSS3 logo",
       },
       {
