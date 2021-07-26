@@ -3,17 +3,15 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="about">
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-4">
-            <h2 className="heading">About Me</h2>
-          </div>
-          <div className="col-sm-8">
+    <div className='about'>
+      <div className='container'>
+        <div className='col-sm-12'>
+          {/* <h2 className='heading'>About Me</h2> */}
+          <div className='row row-evenly'>
             <p>
-              <strong>Welcome! </strong>
-              <span role="img">👋</span>
-              <br />
+              <h2 className='heading'>
+                Welcome! <span role='img'>👋</span>
+              </h2>
               <br />
               Hi! I'm Andrew Sanchez. A Full-Stack Software Engineer who has
               experience with various Front End and Backend Technologies. The

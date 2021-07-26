@@ -1,5 +1,5 @@
 .contact {
-  padding: 50px 10px 20px 25px;
+  padding: 25px;
   text-align: center;
 }
 
@@ -30,15 +30,14 @@
   border: none;
   margin-bottom: 10px;
   background: #1d6fa5;
-  color: #FFF;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08),
-    0 3px 6px rgba(0, 0, 0, 0.15);
-  transition: .5s ease all;
+  color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: 0.5s ease all;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #FFF;
+  color: #fff;
 }
 
 .contact-form textarea {
@@ -54,9 +53,8 @@
   padding: 5px 10px;
   margin-bottom: 30px;
   border: none;
-  color: #FFF;
+  color: #fff;
   font-weight: 700;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08),
-    0 3px 6px rgba(0, 0, 0, 0.15);
-  transition: .5s ease all;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: 0.5s ease all;
 }

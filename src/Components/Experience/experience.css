@@ -1,5 +1,5 @@
 .experience {
-  padding: 50px 0 15px 0;
+  padding: 25px;
   text-align: center;
   border-bottom: 1px solid #dcd9d9;
 }
@@ -24,7 +24,7 @@
 
 .experience-time::before {
   position: absolute;
-  content: '';    
+  content: "";
   top: 0;
   bottom: 0;
   left: 303px;
