@@ -9,6 +9,16 @@ const resumeInfo = {
       projectImage:
         "https://firebase.google.com/images/brand-guidelines/logo-vertical.png",
       imageAlt: "firebase logo",
+      tags: [
+        "JavaScript",
+        "React",
+        "Redux",
+        "Flexbox",
+        "Authentication",
+        "Google Firebase",
+        "Cloud Functions",
+        "Deployed",
+      ],
     },
     {
       title: "React Image Search",
@@ -19,6 +29,15 @@ const resumeInfo = {
       projectImage:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_of_Unsplash.svg/2000px-Logo_of_Unsplash.svg.png",
       imageAlt: "camera",
+      tags: [
+        "JavaScript",
+        "React",
+        "3rd Party API",
+        "Flexbox",
+        "CSS",
+        "Heroku",
+        "Deployed",
+      ],
     },
     {
       title: "Vue ToDo App",
@@ -28,6 +47,7 @@ const resumeInfo = {
       repository: "https://github.com/TB831/vueToDoApp",
       projectImage: "https://andrewsanc.github.io/images/todo.png",
       imageAlt: "Checklist",
+      tags: ["JavaScript", "VueJS", "3rd Party API", "CSS", "Flexbox"],
     },
     {
       title: "Concentration Cards",
@@ -37,6 +57,14 @@ const resumeInfo = {
       repository: "https://github.com/TB831/concentration/",
       projectImage: "https://andrewsanc.github.io/images/reactLogo.png",
       imageAlt: "React Logo",
+      tags: [
+        "JavaScript",
+        "React",
+        "Flexbox",
+        "CSS Animations",
+        "3rd Party API",
+        "Deployed",
+      ],
     },
     {
       title: "SmartBrain",
@@ -46,6 +74,17 @@ const resumeInfo = {
       repository: "https://github.com/TB831/smart-brain/",
       projectImage: "https://andrewsanc.github.io/images/brain.png",
       imageAlt: "Brain logo",
+      tags: [
+        "JavaScript",
+        "Node.JS",
+        "CSS",
+        "ExpressJS",
+        "PostgreSQL",
+        "KnexJS",
+        "3rd Party API",
+        "Deployed",
+        "Authentication",
+      ],
     },
     {
       title: "Insurance Chatbot",
@@ -56,6 +95,14 @@ const resumeInfo = {
         "https://github.com/CSUMB-CST499-S18/cig-customer_service-chatbot-1/tree/ansanchez",
       projectImage: "https://andrewsanc.github.io/images/chatbot.jpg",
       imageAlt: "Chatbot",
+      tags: [
+        "JavaScript",
+        "Node.JS",
+        "Amazon Web Services",
+        "Lambda Functions",
+        "3rd Party Integration",
+        "Authentication",
+      ],
     },
     {
       title: "Video Game Sales Prediction",
@@ -66,6 +113,15 @@ const resumeInfo = {
         "https://github.com/CSUMB-CST499-S18/cig-customer_service-chatbot-1/tree/ansanchez",
       projectImage: "https://andrewsanc.github.io/images/ml.jpg",
       imageAlt: "Machine Learning",
+      tags: [
+        "R",
+        "Machine Learning",
+        "Data Analysis",
+        "Linear Regression",
+        "Regression Trees",
+        "Logistic Regression",
+        "3rd Party Data Set",
+      ],
     },
   ],
   technology: {
@@ -126,6 +182,11 @@ const resumeInfo = {
         imageAlt: "Vuejs logo",
       },
       {
+        title: "Node.JS",
+        imageUrl: "images/nodejs.png",
+        imageAlt: "NodeJS Logo",
+      },
+      {
         title: "Express",
         imageUrl:
           "https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61",
@@ -179,11 +240,6 @@ const resumeInfo = {
         imageUrl:
           "https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg",
         imageAlt: "Heroku",
-      },
-      {
-        title: "Node.JS",
-        imageUrl: "images/nodejs.png",
-        imageAlt: "NodeJS Logo",
       },
     ],
   },

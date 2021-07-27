@@ -82,9 +82,12 @@
 
 .social a {
   color: #fff;
-  padding: 10px;
+  margin: 5px;
+  padding: 2px 6px;
 }
 
 .social a:hover {
-  color: #fff;
+  background-color: #fff;
+  color: #3498db;
+  border-radius: 6px;
 }

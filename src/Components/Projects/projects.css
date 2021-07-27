@@ -74,3 +74,17 @@
 .shadow-large {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
 }
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-tag {
+  padding: 5px 7px;
+  border-radius: 30px;
+  color: #3498db;
+  background: #fff;
+  border: 1px solid #3498db;
+  margin: 2px;
+}

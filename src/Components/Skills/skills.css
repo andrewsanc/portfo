@@ -78,5 +78,5 @@ li {
 }
 
 .row-evenly {
-  justify-content: flex-start;
+  justify-content: center;
 }
