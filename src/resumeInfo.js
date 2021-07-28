@@ -252,6 +252,7 @@ const resumeInfo = {
       degree: "Bachelor of Science",
       major: "Computer Science",
       emphasis: "Software Engineering",
+      logo: "images/csumb.png",
     },
   ],
 };
