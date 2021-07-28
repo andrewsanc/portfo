@@ -8,24 +8,21 @@ const About = () => {
         <div className='col-sm-12'>
           {/* <h2 className='heading'>About Me</h2> */}
           <div className='row row-evenly'>
-            <p>
+            <div>
               <h2 className='heading'>
                 Welcome! <span role='img'>👋</span>
               </h2>
               <br />
-              Hi! I'm Andrew Sanchez. A Full-Stack Software Engineer who has
-              experience with various Front End and Backend Technologies. The
-              path that has led me to become a software engineer began when I
-              was attending school at California State University, Monterey Bay.
-              Throughout my time at CSUMB I've had a chance to explore
-              everything in computer science; From exploring multiple
-              programming languages to working with diverse
-              frameworks/libraries. Since graduating I have had the chance to
-              build and deploy various applications using the latest
-              technologies. As an engineer, I'm always looking to learn new
-              skill sets that allow me become a more versatile and knowledgeable
-              software engineer.
-            </p>
+              I'm Andrew Sanchez, a Software Engineer who has experience with a
+              variety of frontend and backend technologies. My path began when I
+              took my first CS course in Java and was instructed to build my
+              first application. Since then, I've had a chance to explore
+              everything in computer science; From doing data analysis with
+              Python to building beautiful user interfaces with React to
+              building scalable APIs with Node.js/Express. As an engineer, I'm
+              always looking to learn new skill sets that allow me to become a
+              more versatile and knowledgeable software engineer.
+            </div>
           </div>
         </div>
       </div>
