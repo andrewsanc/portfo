@@ -153,6 +153,11 @@ const resumeInfo = {
         imageAlt: "CSS3 logo",
       },
       {
+        title: "SASS",
+        imageUrl: "images/sass.png",
+        imageAlt: "SASS logo",
+      },
+      {
         title: "R",
         imageUrl:
           "https://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png",
