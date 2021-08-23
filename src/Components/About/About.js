@@ -16,7 +16,7 @@ const About = () => {
               I'm Andrew Sanchez, a Software Engineer who has experience with a
               variety of frontend and backend technologies. My path began when I
               took my first CS course in{" "}
-              <span className='project-tag'>Java</span> and was instructed to
+              <span className='project-tag'>C++</span> and was instructed to
               build my first application. Since then, I've had a chance to
               explore everything in computer science; From doing data analysis
               with <span className='project-tag'>Python</span> to building
