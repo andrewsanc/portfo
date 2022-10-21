@@ -10,7 +10,7 @@ const Sidebar = () => {
         <h1>Andrew Sanchez</h1>
         <h2>Software Engineer</h2>
         <a
-          href='https://drive.google.com/uc?export=download&id=1G70UMwvaNjPL0BzXFv8NycR_E_xGVXlL'
+          href='https://drive.google.com/uc?export=download&id=1vuGibPtwlPkYzjYE3PAGs0SH_LGTXdK4qQZDovpyK18'
           className='btn-rounded-white'
         >
           Download Resume
