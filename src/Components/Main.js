@@ -16,7 +16,7 @@ export default function Main() {
   } = resumeInfo;
 
   return (
-    <Container>
+    <Container text>
       <div
         style={{
           display: "flex",

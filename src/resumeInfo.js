@@ -247,7 +247,7 @@ export const resumeInfo = {
       imageAlt: "Heroku",
     },
   ],
-  education: [
+  educations: [
     {
       schoolName: "California State University, Monterey Bay",
       schoolLocation: "Seaside, CA",
