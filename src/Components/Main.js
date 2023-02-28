@@ -7,8 +7,8 @@ import {
   Icon,
   Divider,
 } from "semantic-ui-react";
-import { resumeInfo } from "../../resumeInfo";
-import me from "../../static/me.jpg";
+import { resumeInfo } from "../resumeInfo";
+import me from "../static/me.jpg";
 
 export default function Main() {
   const {
