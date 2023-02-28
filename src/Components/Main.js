@@ -48,8 +48,9 @@ export default function Main() {
                 href={link.link}
                 target='_blank'
                 rel='noopener noreferrer'
+                color='green'
               >
-                <Icon name={link.name.toLowerCase()} />
+                <Icon name={link.icon} />
                 {link.name}
               </Label>
             ))}

@@ -5,11 +5,18 @@ export const resumeInfo = {
     links: [
       {
         name: "Github",
+        icon: "github",
         link: "https://github.com/andrewsanc",
       },
       {
         name: "LinkedIn",
+        icon: "linkedin",
         link: "https://www.linkedin.com/in/andrewsanc/",
+      },
+      {
+        name: "Resume",
+        icon: "google drive",
+        link: "https://drive.google.com/uc?export=download&id=1OsmIzjAxz2RPgQuvI-GLbQIlpW5VtEFm",
       },
     ],
   },
