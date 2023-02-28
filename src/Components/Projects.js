@@ -6,7 +6,6 @@ import {
   Item,
   Label,
   List,
-  Segment,
 } from "semantic-ui-react";
 import { resumeInfo } from "../resumeInfo";
 
@@ -17,8 +16,8 @@ export default function Projects() {
     <Container text>
       <Header as='h4'>Projects</Header>
       <Item.Group divided>
-        {projects.map((project) => (
-          <Item>
+        {projects.map((project, i) => (
+          <Item key={i}>
             <Item.Image src={project.projectImage} />
             <Item.Content>
               <Item.Header>{project.title}</Item.Header>
@@ -50,8 +49,8 @@ export default function Projects() {
                 </List>
               </Item.Meta>
               <Item.Extra>
-                {project.tags.map((tag) => (
-                  <Label>{tag}</Label>
+                {project.tags.map((tag, i) => (
+                  <Label key={i}>{tag}</Label>
                 ))}
               </Item.Extra>
             </Item.Content>

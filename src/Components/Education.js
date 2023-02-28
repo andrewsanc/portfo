@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Segment,
-  Image,
-} from "semantic-ui-react";
+import { Container, Divider, Header, Segment, Image } from "semantic-ui-react";
 import { resumeInfo } from "../resumeInfo";
 
 export default function Education() {
@@ -14,8 +7,8 @@ export default function Education() {
   return (
     <Container text>
       <Header as='h4'>Education</Header>
-      {educations.map((education) => (
-        <Segment>
+      {educations.map((education, i) => (
+        <Segment key={i}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div style={{ alignItems: "center" }}>
               <Header as='h4' style={{ padding: "0px", margin: "2px" }}>

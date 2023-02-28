@@ -7,7 +7,9 @@ export default function About() {
   return (
     <Container text>
       <Header as='h4'>About</Header>
-      <p>{about}</p>
+      {Array.isArray(about)
+        ? about.map((section, i) => <p key={i}>{section}</p>)
+        : about}
       <Divider />
     </Container>
   );

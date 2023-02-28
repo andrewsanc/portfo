@@ -42,8 +42,9 @@ export default function Main() {
             {title}
           </Header>
           <div style={{ margin: "4px" }}>
-            {links.map((link) => (
+            {links.map((link, i) => (
               <Label
+                key={i}
                 as='a'
                 href={link.link}
                 target='_blank'

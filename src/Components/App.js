@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 export default function App() {
   return (
-    <div className='ui container'>
+    <div className='ui container' style={{ marginBottom: "10px" }}>
       <Main />
       <About />
       <Skills />

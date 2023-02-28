@@ -8,8 +8,11 @@ export default function Skills() {
     <Container text>
       <Header as='h4'>Skills</Header>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
-        {skills.map((skill) => (
-          <div style={{ display: "flex", alignItems: "center", margin: "4px" }}>
+        {skills.map((skill, i) => (
+          <div
+            key={i}
+            style={{ display: "flex", alignItems: "center", margin: "4px" }}
+          >
             <Label image>
               <Image src={skill.imageUrl} />
               {skill.title}

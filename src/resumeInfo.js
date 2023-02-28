@@ -20,8 +20,11 @@ export const resumeInfo = {
       },
     ],
   },
-  about:
-    "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.",
+  about: [
+    "Hello 👋, my name is Andrew, and I am a software engineer whose passionate about using technology to solve problems and improve people's lives.",
+    "I’m a problem solver at heart, and I enjoy the challenge of tackling complex issues. I always strive to write clean and maintainable code, and I take pride in my ability to develop high-quality software solutions.",
+    "I’m dedicated to continuously learning and growing as a software engineer, and I am excited to see where my career will take me in the future.",
+  ],
   projects: [
     {
       title: "Firebase Project Manager",
