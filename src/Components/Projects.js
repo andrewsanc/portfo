@@ -28,12 +28,22 @@ export default function Projects() {
               <Item.Meta>
                 <List link>
                   {project.deployment && (
-                    <List.Item as='a' src={project.deployment}>
+                    <List.Item
+                      as='a'
+                      href={project.deployment}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
                       Live Deployment
                     </List.Item>
                   )}
                   {project.repository && (
-                    <List.Item as='a' src={project.repository}>
+                    <List.Item
+                      as='a'
+                      href={project.repository}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
                       Repository
                     </List.Item>
                   )}

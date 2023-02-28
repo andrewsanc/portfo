@@ -12,7 +12,7 @@ import me from "../static/me.jpg";
 
 export default function Main() {
   const {
-    me: { name, title, yoe },
+    me: { name, title, links },
   } = resumeInfo;
 
   return (
@@ -42,14 +42,17 @@ export default function Main() {
             {title}
           </Header>
           <div style={{ margin: "4px" }}>
-            <Label as='a'>
-              <Icon name='github' />
-              Github
-            </Label>
-            <Label as='a'>
-              <Icon name='linkedin' />
-              Linkedin
-            </Label>
+            {links.map((link) => (
+              <Label
+                as='a'
+                href={link.link}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Icon name={link.name.toLowerCase()} />
+                {link.name}
+              </Label>
+            ))}
           </div>
         </div>
       </div>
