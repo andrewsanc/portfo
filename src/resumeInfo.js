@@ -1,4 +1,9 @@
-const resumeInfo = {
+export const resumeInfo = {
+  me: {
+    name: "Andrew Sanchez",
+    title: "Software Engineer",
+    yoe: 4,
+  },
   projects: [
     {
       title: "Firebase Project Manager",
@@ -261,5 +266,3 @@ const resumeInfo = {
     },
   ],
 };
-
-export default resumeInfo;
