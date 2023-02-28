@@ -1,4 +1,30 @@
-const resumeInfo = {
+export const resumeInfo = {
+  me: {
+    name: "Andrew Sanchez",
+    title: "Software Engineer",
+    links: [
+      {
+        name: "Github",
+        icon: "github",
+        link: "https://github.com/andrewsanc",
+      },
+      {
+        name: "LinkedIn",
+        icon: "linkedin",
+        link: "https://www.linkedin.com/in/andrewsanc/",
+      },
+      {
+        name: "Resume",
+        icon: "google drive",
+        link: "https://drive.google.com/uc?export=download&id=1OsmIzjAxz2RPgQuvI-GLbQIlpW5VtEFm",
+      },
+    ],
+  },
+  about: [
+    "Hello 👋, my name is Andrew, and I am a software engineer whose passionate about using technology to solve problems and improve people's lives.",
+    "I’m a problem solver at heart, and I enjoy the challenge of tackling complex issues. I always strive to write clean and maintainable code, and I take pride in my ability to develop high-quality software solutions.",
+    "I’m dedicated to continuously learning and growing as a software engineer, and I am excited to see where my career will take me in the future.",
+  ],
   projects: [
     {
       title: "Firebase Project Manager",
@@ -124,131 +150,132 @@ const resumeInfo = {
       ],
     },
   ],
-  technology: {
-    languages: [
-      {
-        title: "JavaScript",
-        imageUrl: "images/javascript.png",
-        imageAlt: "JavaScript logo",
-      },
-      {
-        title: "TypeScript",
-        imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-        imageAlt: "TypeScript logo",
-      },
-      {
-        title: "Python",
-        imageUrl: "images/python.png",
-        imageAlt: "Python logo",
-      },
-      {
-        title: "HTML5",
-        imageUrl: "images/html5.png",
-        imageAlt: "HTML5 logo",
-      },
-      {
-        title: "CSS3",
-        imageUrl: "images/css.png",
-        imageAlt: "CSS3 logo",
-      },
-      {
-        title: "SASS",
-        imageUrl: "images/sass.png",
-        imageAlt: "SASS logo",
-      },
-      {
-        title: "R",
-        imageUrl:
-          "https://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png",
-        imageAlt: "R logo",
-      },
-    ],
-    frameworks: [
-      {
-        title: "React",
-        imageUrl:
-          "https://e7.pngegg.com/pngimages/18/497/png-clipart-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue.png",
-        imageAlt: "React logo",
-      },
-      {
-        title: "Redux",
-        imageUrl: "https://avatars0.githubusercontent.com/u/13142323?s=400&v=4",
-        imageAlt: "Redux logo",
-      },
-      {
-        title: "jQuery",
-        imageUrl: "images/jquery.png",
-        imageAlt: "jQuery logo",
-      },
-      {
-        title: "VueJS",
-        imageUrl: "https://vuejs.org/images/logo.png",
-        imageAlt: "Vuejs logo",
-      },
-      {
-        title: "Node.JS",
-        imageUrl: "images/nodejs.png",
-        imageAlt: "NodeJS Logo",
-      },
-      {
-        title: "Express",
-        imageUrl:
-          "https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61",
-        imageAlt: "Express logo",
-      },
-      {
-        title: "Flask",
-        imageUrl:
-          "https://res.cloudinary.com/practicaldev/image/fetch/s--fU-RKnuZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://1selfsolutions.com/wp-content/uploads/2018/07/flask-preview-400.jpg",
-        imageAlt: "Flask logo",
-      },
-      {
-        title: "JestJS",
-        imageUrl:
-          "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png",
-        imageAlt: "Jest Logo",
-      },
-    ],
-    datas: [
-      {
-        title: "SQL",
-        imageUrl: "images/sql.png",
-        imageAlt: "MySQL logo",
-      },
-      {
-        title: "MongoDB",
-        imageUrl: "images/mongodb.png",
-        imageAlt: "MongoDB",
-      },
-    ],
-    tools: [
-      {
-        title: "Git",
-        imageUrl:
-          "https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png",
-        imageAlt: "Git logo",
-      },
-      {
-        title: "Amazon Web Services",
-        imageUrl: "images/aws.png",
-        imageAlt: "AWS logo",
-      },
-      {
-        title: "Google Cloud",
-        imageUrl:
-          "https://seeklogo.com/images/G/google-cloud-logo-6B950E8ADB-seeklogo.com.png",
-        imageAlt: "GCP",
-      },
-      {
-        title: "Heroku",
-        imageUrl:
-          "https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg",
-        imageAlt: "Heroku",
-      },
-    ],
-  },
-  education: [
+  skills: [
+    {
+      title: "JavaScript",
+      imageUrl: "images/javascript.png",
+      imageAlt: "JavaScript logo",
+    },
+    {
+      title: "TypeScript",
+      imageUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      imageAlt: "TypeScript logo",
+    },
+    {
+      title: "React",
+      imageUrl: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+      imageAlt: "React logo",
+    },
+    {
+      title: "GraphQL",
+      imageUrl: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+      imageAlt: "Graphql logo",
+    },
+    {
+      title: "Apollo",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/apollographql/apollographql-icon.svg",
+      imageAlt: "Apollo Logo",
+    },
+    {
+      title: "Python",
+      imageUrl: "images/python.png",
+      imageAlt: "Python logo",
+    },
+    {
+      title: "HTML5",
+      imageUrl: "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+      imageAlt: "HTML5 logo",
+    },
+    {
+      title: "CSS3",
+      imageUrl: "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+      imageAlt: "CSS3 logo",
+    },
+    {
+      title: "SASS",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
+      imageAlt: "SASS logo",
+    },
+    {
+      title: "Tailwind CSS",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      imageAlt: "Tailwind CSS Logo",
+    },
+    {
+      title: "Redux",
+      imageUrl: "https://avatars0.githubusercontent.com/u/13142323?s=400&v=4",
+      imageAlt: "Redux logo",
+    },
+    {
+      title: "jQuery",
+      imageUrl: "https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg",
+      imageAlt: "jQuery logo",
+    },
+    {
+      title: "VueJS",
+      imageUrl: "https://vuejs.org/images/logo.png",
+      imageAlt: "Vuejs logo",
+    },
+    {
+      title: "NodeJS",
+      imageUrl: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+      imageAlt: "NodeJS Logo",
+    },
+    {
+      title: "Express",
+      imageUrl:
+        "https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61",
+      imageAlt: "Express logo",
+    },
+    {
+      title: "Flask",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg",
+      imageAlt: "Flask logo",
+    },
+    {
+      title: "JestJS",
+      imageUrl: "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg",
+      imageAlt: "Jest Logo",
+    },
+    {
+      title: "PostgreSQL",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
+      imageAlt: "PostgreSQL Logo",
+    },
+    {
+      title: "MongoDB",
+      imageUrl: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+      imageAlt: "MongoDB",
+    },
+    {
+      title: "Git",
+      imageUrl: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+      imageAlt: "Git logo",
+    },
+    {
+      title: "Amazon Web Services",
+      imageUrl: "images/aws.png",
+      imageAlt: "AWS logo",
+    },
+    {
+      title: "Google Cloud",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
+      imageAlt: "Google Cloud Logo",
+    },
+    {
+      title: "Heroku",
+      imageUrl: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg",
+      imageAlt: "Heroku",
+    },
+  ],
+  educations: [
     {
       schoolName: "California State University, Monterey Bay",
       schoolLocation: "Seaside, CA",
@@ -261,5 +288,3 @@ const resumeInfo = {
     },
   ],
 };
-
-export default resumeInfo;
