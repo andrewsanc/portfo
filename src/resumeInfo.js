@@ -163,36 +163,47 @@ export const resumeInfo = {
       imageAlt: "TypeScript logo",
     },
     {
+      title: "React",
+      imageUrl: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+      imageAlt: "React logo",
+    },
+    {
+      title: "GraphQL",
+      imageUrl: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+      imageAlt: "Graphql logo",
+    },
+    {
+      title: "Apollo",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/apollographql/apollographql-icon.svg",
+      imageAlt: "Apollo Logo",
+    },
+    {
       title: "Python",
       imageUrl: "images/python.png",
       imageAlt: "Python logo",
     },
     {
       title: "HTML5",
-      imageUrl: "images/html5.png",
+      imageUrl: "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
       imageAlt: "HTML5 logo",
     },
     {
       title: "CSS3",
-      imageUrl: "images/css.png",
+      imageUrl: "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
       imageAlt: "CSS3 logo",
     },
     {
       title: "SASS",
-      imageUrl: "images/sass.png",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
       imageAlt: "SASS logo",
     },
     {
-      title: "R",
+      title: "Tailwind CSS",
       imageUrl:
-        "https://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png",
-      imageAlt: "R logo",
-    },
-    {
-      title: "React",
-      imageUrl:
-        "https://e7.pngegg.com/pngimages/18/497/png-clipart-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue.png",
-      imageAlt: "React logo",
+        "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      imageAlt: "Tailwind CSS Logo",
     },
     {
       title: "Redux",
@@ -201,7 +212,7 @@ export const resumeInfo = {
     },
     {
       title: "jQuery",
-      imageUrl: "images/jquery.png",
+      imageUrl: "https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg",
       imageAlt: "jQuery logo",
     },
     {
@@ -210,8 +221,8 @@ export const resumeInfo = {
       imageAlt: "Vuejs logo",
     },
     {
-      title: "Node.JS",
-      imageUrl: "images/nodejs.png",
+      title: "NodeJS",
+      imageUrl: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
       imageAlt: "NodeJS Logo",
     },
     {
@@ -223,29 +234,28 @@ export const resumeInfo = {
     {
       title: "Flask",
       imageUrl:
-        "https://res.cloudinary.com/practicaldev/image/fetch/s--fU-RKnuZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://1selfsolutions.com/wp-content/uploads/2018/07/flask-preview-400.jpg",
+        "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg",
       imageAlt: "Flask logo",
     },
     {
       title: "JestJS",
-      imageUrl:
-        "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png",
+      imageUrl: "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg",
       imageAlt: "Jest Logo",
     },
     {
-      title: "SQL",
-      imageUrl: "images/sql.png",
-      imageAlt: "MySQL logo",
+      title: "PostgreSQL",
+      imageUrl:
+        "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
+      imageAlt: "PostgreSQL Logo",
     },
     {
       title: "MongoDB",
-      imageUrl: "images/mongodb.png",
+      imageUrl: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
       imageAlt: "MongoDB",
     },
     {
       title: "Git",
-      imageUrl:
-        "https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png",
+      imageUrl: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
       imageAlt: "Git logo",
     },
     {
@@ -256,13 +266,12 @@ export const resumeInfo = {
     {
       title: "Google Cloud",
       imageUrl:
-        "https://seeklogo.com/images/G/google-cloud-logo-6B950E8ADB-seeklogo.com.png",
-      imageAlt: "GCP",
+        "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
+      imageAlt: "Google Cloud Logo",
     },
     {
       title: "Heroku",
-      imageUrl:
-        "https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg",
+      imageUrl: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg",
       imageAlt: "Heroku",
     },
   ],

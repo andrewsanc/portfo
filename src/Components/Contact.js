@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Form,
-  Header,
-  TextArea,
-  Button,
-  Icon,
-} from "semantic-ui-react";
+import { Container, Form, Header, TextArea, Button } from "semantic-ui-react";
 
 export default function Contact() {
   return (

@@ -11,10 +11,14 @@ export default function Skills() {
         {skills.map((skill, i) => (
           <div
             key={i}
-            style={{ display: "flex", alignItems: "center", margin: "4px" }}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              margin: "4px",
+            }}
           >
-            <Label image>
-              <Image src={skill.imageUrl} />
+            <Label size='medium' image>
+              <Image avatar src={skill.imageUrl} />
               {skill.title}
             </Label>
           </div>

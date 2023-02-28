@@ -45,11 +45,11 @@ export default function Main() {
             {links.map((link, i) => (
               <Label
                 key={i}
+                size='medium'
                 as='a'
                 href={link.link}
                 target='_blank'
                 rel='noopener noreferrer'
-                color='green'
               >
                 <Icon name={link.icon} />
                 {link.name}
