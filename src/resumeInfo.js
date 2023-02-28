@@ -131,130 +131,122 @@ export const resumeInfo = {
       ],
     },
   ],
-  technology: {
-    languages: [
-      {
-        title: "JavaScript",
-        imageUrl: "images/javascript.png",
-        imageAlt: "JavaScript logo",
-      },
-      {
-        title: "TypeScript",
-        imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-        imageAlt: "TypeScript logo",
-      },
-      {
-        title: "Python",
-        imageUrl: "images/python.png",
-        imageAlt: "Python logo",
-      },
-      {
-        title: "HTML5",
-        imageUrl: "images/html5.png",
-        imageAlt: "HTML5 logo",
-      },
-      {
-        title: "CSS3",
-        imageUrl: "images/css.png",
-        imageAlt: "CSS3 logo",
-      },
-      {
-        title: "SASS",
-        imageUrl: "images/sass.png",
-        imageAlt: "SASS logo",
-      },
-      {
-        title: "R",
-        imageUrl:
-          "https://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png",
-        imageAlt: "R logo",
-      },
-    ],
-    frameworks: [
-      {
-        title: "React",
-        imageUrl:
-          "https://e7.pngegg.com/pngimages/18/497/png-clipart-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue.png",
-        imageAlt: "React logo",
-      },
-      {
-        title: "Redux",
-        imageUrl: "https://avatars0.githubusercontent.com/u/13142323?s=400&v=4",
-        imageAlt: "Redux logo",
-      },
-      {
-        title: "jQuery",
-        imageUrl: "images/jquery.png",
-        imageAlt: "jQuery logo",
-      },
-      {
-        title: "VueJS",
-        imageUrl: "https://vuejs.org/images/logo.png",
-        imageAlt: "Vuejs logo",
-      },
-      {
-        title: "Node.JS",
-        imageUrl: "images/nodejs.png",
-        imageAlt: "NodeJS Logo",
-      },
-      {
-        title: "Express",
-        imageUrl:
-          "https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61",
-        imageAlt: "Express logo",
-      },
-      {
-        title: "Flask",
-        imageUrl:
-          "https://res.cloudinary.com/practicaldev/image/fetch/s--fU-RKnuZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://1selfsolutions.com/wp-content/uploads/2018/07/flask-preview-400.jpg",
-        imageAlt: "Flask logo",
-      },
-      {
-        title: "JestJS",
-        imageUrl:
-          "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png",
-        imageAlt: "Jest Logo",
-      },
-    ],
-    datas: [
-      {
-        title: "SQL",
-        imageUrl: "images/sql.png",
-        imageAlt: "MySQL logo",
-      },
-      {
-        title: "MongoDB",
-        imageUrl: "images/mongodb.png",
-        imageAlt: "MongoDB",
-      },
-    ],
-    tools: [
-      {
-        title: "Git",
-        imageUrl:
-          "https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png",
-        imageAlt: "Git logo",
-      },
-      {
-        title: "Amazon Web Services",
-        imageUrl: "images/aws.png",
-        imageAlt: "AWS logo",
-      },
-      {
-        title: "Google Cloud",
-        imageUrl:
-          "https://seeklogo.com/images/G/google-cloud-logo-6B950E8ADB-seeklogo.com.png",
-        imageAlt: "GCP",
-      },
-      {
-        title: "Heroku",
-        imageUrl:
-          "https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg",
-        imageAlt: "Heroku",
-      },
-    ],
-  },
+  skills: [
+    {
+      title: "JavaScript",
+      imageUrl: "images/javascript.png",
+      imageAlt: "JavaScript logo",
+    },
+    {
+      title: "TypeScript",
+      imageUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      imageAlt: "TypeScript logo",
+    },
+    {
+      title: "Python",
+      imageUrl: "images/python.png",
+      imageAlt: "Python logo",
+    },
+    {
+      title: "HTML5",
+      imageUrl: "images/html5.png",
+      imageAlt: "HTML5 logo",
+    },
+    {
+      title: "CSS3",
+      imageUrl: "images/css.png",
+      imageAlt: "CSS3 logo",
+    },
+    {
+      title: "SASS",
+      imageUrl: "images/sass.png",
+      imageAlt: "SASS logo",
+    },
+    {
+      title: "R",
+      imageUrl:
+        "https://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png",
+      imageAlt: "R logo",
+    },
+    {
+      title: "React",
+      imageUrl:
+        "https://e7.pngegg.com/pngimages/18/497/png-clipart-black-and-blue-atom-icon-screenshot-react-javascript-responsive-web-design-github-angularjs-github-logo-electric-blue.png",
+      imageAlt: "React logo",
+    },
+    {
+      title: "Redux",
+      imageUrl: "https://avatars0.githubusercontent.com/u/13142323?s=400&v=4",
+      imageAlt: "Redux logo",
+    },
+    {
+      title: "jQuery",
+      imageUrl: "images/jquery.png",
+      imageAlt: "jQuery logo",
+    },
+    {
+      title: "VueJS",
+      imageUrl: "https://vuejs.org/images/logo.png",
+      imageAlt: "Vuejs logo",
+    },
+    {
+      title: "Node.JS",
+      imageUrl: "images/nodejs.png",
+      imageAlt: "NodeJS Logo",
+    },
+    {
+      title: "Express",
+      imageUrl:
+        "https://buzz-prod-photos.global.ssl.fastly.net/img/06b9ed56-ced3-4078-bfc8-ca0055a69d61",
+      imageAlt: "Express logo",
+    },
+    {
+      title: "Flask",
+      imageUrl:
+        "https://res.cloudinary.com/practicaldev/image/fetch/s--fU-RKnuZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/http://1selfsolutions.com/wp-content/uploads/2018/07/flask-preview-400.jpg",
+      imageAlt: "Flask logo",
+    },
+    {
+      title: "JestJS",
+      imageUrl:
+        "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png",
+      imageAlt: "Jest Logo",
+    },
+    {
+      title: "SQL",
+      imageUrl: "images/sql.png",
+      imageAlt: "MySQL logo",
+    },
+    {
+      title: "MongoDB",
+      imageUrl: "images/mongodb.png",
+      imageAlt: "MongoDB",
+    },
+    {
+      title: "Git",
+      imageUrl:
+        "https://seeklogo.com/images/G/git-logo-CD8D6F1C09-seeklogo.com.png",
+      imageAlt: "Git logo",
+    },
+    {
+      title: "Amazon Web Services",
+      imageUrl: "images/aws.png",
+      imageAlt: "AWS logo",
+    },
+    {
+      title: "Google Cloud",
+      imageUrl:
+        "https://seeklogo.com/images/G/google-cloud-logo-6B950E8ADB-seeklogo.com.png",
+      imageAlt: "GCP",
+    },
+    {
+      title: "Heroku",
+      imageUrl:
+        "https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1461122387heroku-logo.jpg",
+      imageAlt: "Heroku",
+    },
+  ],
   education: [
     {
       schoolName: "California State University, Monterey Bay",

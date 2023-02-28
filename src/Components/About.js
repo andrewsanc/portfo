@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Divider } from "semantic-ui-react";
+import { Container, Divider, Header } from "semantic-ui-react";
 import { resumeInfo } from "../resumeInfo";
 
 export default function About() {
   const { about } = resumeInfo;
   return (
     <Container text>
-      <h4>About</h4>
+      <Header as='h4'>About</Header>
       <p>{about}</p>
       <Divider />
     </Container>
