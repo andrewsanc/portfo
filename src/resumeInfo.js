@@ -27,6 +27,21 @@ export const resumeInfo = {
   ],
   projects: [
     {
+      title: "GitHub User Search",
+      description: "A frontend React application that provide users with an easy and efficient way to search for GitHub users and view their profile statistics, helping them to better understand and connect with other developers in the community.",
+      deployment: "https://andrewsanc.github.io/github-user-search/",
+      repository: "https://github.com/andrewsanc/github-user-search",
+      projectImage: "https://avatars.githubusercontent.com/u/583231?v=4",
+      imageAlt: "Octocat avatar",
+      tags: [
+        "JavaScript",
+        "React",
+        "API",
+        "Flexbox",
+        "Deployed"
+      ]
+    },
+    {
       title: "Firebase Project Manager",
       description:
         "Simple project management application that is built with React, Redux, and Firebase. The Application has authentication to allow users to login and create accounts. Users can create projects with title and add information about their project. ",
