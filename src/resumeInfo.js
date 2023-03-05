@@ -28,18 +28,13 @@ export const resumeInfo = {
   projects: [
     {
       title: "GitHub User Search",
-      description: "A frontend React application that provide users with an easy and efficient way to search for GitHub users and view their profile statistics, helping them to better understand and connect with other developers in the community.",
+      description:
+        "A frontend React application that provide users with an easy and efficient way to search for GitHub users and view their profile statistics, helping them to better understand and connect with other developers in the community.",
       deployment: "https://andrewsanc.github.io/github-user-search/",
       repository: "https://github.com/andrewsanc/github-user-search",
       projectImage: "https://avatars.githubusercontent.com/u/583231?v=4",
       imageAlt: "Octocat avatar",
-      tags: [
-        "JavaScript",
-        "React",
-        "API",
-        "Flexbox",
-        "Deployed"
-      ]
+      tags: ["JavaScript", "React", "API", "Flexbox", "Deployed"],
     },
     {
       title: "Firebase Project Manager",
@@ -81,16 +76,6 @@ export const resumeInfo = {
       ],
     },
     {
-      title: "Vue ToDo App",
-      description:
-        'Front-End web application built using Vue. The application is centered around a simple "ToDo" list that allows the user to create and delete tasks. Application already comes with 3 sample tasks that is retrieved from JSONPlaceholder.typicode.com/ to simulate communication to a backend service.',
-      deployment: null,
-      repository: "https://github.com/TB831/vueToDoApp",
-      projectImage: "https://andrewsanc.github.io/images/todo.png",
-      imageAlt: "Checklist",
-      tags: ["JavaScript", "VueJS", "3rd Party API", "CSS", "Flexbox"],
-    },
-    {
       title: "Concentration Cards",
       description:
         "Front-End web game/application built using React. Game starts with all cards faced down with the objective of matching each card to a similar value. The DeckOfCards API is used to retrieve shuffled card deck data. Game ends when all 52 cards are wiped off the game board. The data retrieved is rendered using React components to display all cards on a gameboard",
@@ -125,43 +110,6 @@ export const resumeInfo = {
         "3rd Party API",
         "Deployed",
         "Authentication",
-      ],
-    },
-    {
-      title: "Insurance Chatbot",
-      description:
-        "With a team designed, built, test, and refine a Amazon Web Services chatbot. Intents are designed around frequently asked questions such as “how can I pay my bill”, “when is my bill due”, and “what is my premium”. Amazon Lamda functions are then used to validate intent and respond appropriately.",
-      deployment: null,
-      repository:
-        "https://github.com/CSUMB-CST499-S18/cig-customer_service-chatbot-1/tree/ansanchez",
-      projectImage: "https://andrewsanc.github.io/images/chatbot.jpg",
-      imageAlt: "Chatbot",
-      tags: [
-        "JavaScript",
-        "Node.JS",
-        "Amazon Web Services",
-        "Lambda Functions",
-        "3rd Party Integration",
-        "Authentication",
-      ],
-    },
-    {
-      title: "Video Game Sales Prediction",
-      description:
-        "Project centered around learning Machine Learning algorithms and applying them to data. Our goal was to predict video games sales off data collected in the past 15 years. Machine Learning algorithms used Linear Regression, Regression Trees, and Logistic Regression.",
-      deployment: null,
-      repository:
-        "https://github.com/CSUMB-CST499-S18/cig-customer_service-chatbot-1/tree/ansanchez",
-      projectImage: "https://andrewsanc.github.io/images/ml.jpg",
-      imageAlt: "Machine Learning",
-      tags: [
-        "R",
-        "Machine Learning",
-        "Data Analysis",
-        "Linear Regression",
-        "Regression Trees",
-        "Logistic Regression",
-        "3rd Party Data Set",
       ],
     },
   ],
