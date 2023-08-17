@@ -16,7 +16,7 @@ export const resumeInfo = {
       {
         name: "Resume",
         icon: "google drive",
-        link: "https://drive.google.com/uc?export=download&id=11J0kwZWDKa9N3fS8KMim1YcnrxHts6A6",
+        link: "https://drive.google.com/uc?export=download&id=1jclj03IxTEuqjIFCtaQxQ3M5P1HOO1u4",
       },
     ],
   },
